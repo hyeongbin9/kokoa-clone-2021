@@ -1,0 +1,22 @@
+.screen-header__icons{
+    position: relative;
+}
+.nav__new{
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    position: absolute;
+    left: 30px;
+}
+.screen-header__new{
+    left: 65px;
+    bottom: 20px;
+}
+.screen-header__more-new{
+    left: 110px;
+    bottom: 20px;
+}
+.more-main__new{
+    left: 210px
+}

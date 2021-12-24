@@ -1,0 +1,31 @@
+.alt-screen-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px var(--horizontal-space);
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+.alt-screen-header__title{
+    font-size: 28px;
+    font-weight: 500;
+}
+.alt-screen-header__column{
+    width:33%
+}
+.alt-screen-header__column:first-child{
+    margin-right: auto;
+}
+.alt-screen-header__column:nth-child(2){
+    text-align: center;
+}
+.alt-screen-header__column:last-child{
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.alt-screen-header__column:last-child span:not(:first-child){
+    margin-left: 20px;
+}
+
